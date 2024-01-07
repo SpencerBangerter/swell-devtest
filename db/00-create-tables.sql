@@ -8,7 +8,7 @@ CREATE TABLE users (
 CREATE TABLE companies (
 	id TEXT NOT NULL PRIMARY KEY,
 	name TEXT NOT NULL
-);
+)
 
 CREATE TABLE reviews (
 	id TEXT NOT NULL PRIMARY KEY,
