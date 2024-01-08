@@ -1,8 +1,8 @@
 import Alert from '@mui/material/Alert';
 import TaskIcon from '@mui/icons-material/Task';
+import getAllReviews from '../../api/getAllReviews';
 
-/* eslint-disable-next-line */
-
+getAllReviews();
 export function ReviewsList() {
 	return (
 		<Alert severity="error" icon={<TaskIcon />}>
